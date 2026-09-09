@@ -1,0 +1,130 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1180 610" width="1180" height="610" role="img" aria-labelledby="title desc">
+<title id="title">Mukkannappagari Pradeep Kumar — Java Full Stack Developer</title>
+<desc id="desc">Animated GitHub profile banner with terminal-inspired developer profile.</desc>
+<defs>
+  <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#2563EB"><animate attributeName="stop-color" values="#2563EB;#06B6D4;#10B981;#2563EB" dur="10s" repeatCount="indefinite"/></stop>
+    <stop offset="52%" stop-color="#06B6D4"><animate attributeName="stop-color" values="#06B6D4;#10B981;#2563EB;#06B6D4" dur="10s" repeatCount="indefinite"/></stop>
+    <stop offset="100%" stop-color="#10B981"><animate attributeName="stop-color" values="#10B981;#2563EB;#06B6D4;#10B981" dur="10s" repeatCount="indefinite"/></stop>
+  </linearGradient>
+  <linearGradient id="asciiGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" stop-color="#2563EB"/><stop offset="55%" stop-color="#06B6D4"/><stop offset="100%" stop-color="#10B981"/>
+    <animate attributeName="x1" values="0%;100%;0%" dur="7s" repeatCount="indefinite"/>
+    <animate attributeName="x2" values="100%;0%;100%" dur="7s" repeatCount="indefinite"/>
+  </linearGradient>
+  <radialGradient id="glow1"><stop offset="0%" stop-color="#2563EB" stop-opacity=".26"/><stop offset="100%" stop-color="#2563EB" stop-opacity="0"/></radialGradient>
+  <radialGradient id="glow2"><stop offset="0%" stop-color="#06B6D4" stop-opacity=".18"/><stop offset="100%" stop-color="#06B6D4" stop-opacity="0"/></radialGradient>
+  <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%"><feGaussianBlur in="SourceAlpha" stdDeviation="14" result="b"/><feOffset dy="10" result="o"/><feComponentTransfer><feFuncA type="linear" slope=".35"/></feComponentTransfer><feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  <filter id="softGlow" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  <filter id="noise"><feTurbulence type="fractalNoise" baseFrequency=".9" numOctaves="2" stitchTiles="stitch"/><feColorMatrix type="saturate" values="0"/><feComponentTransfer><feFuncA type="table" tableValues="0 .035"/></feComponentTransfer></filter>
+  <clipPath id="round"><rect x="8" y="8" width="1164" height="594" rx="34"/></clipPath>
+  <mask id="fadeMask"><rect width="1180" height="610" fill="white"/><linearGradient id="maskGrad" x1="0" x2="1"><stop offset="0" stop-color="black"/><stop offset=".2" stop-color="white"/><stop offset="1" stop-color="white"/></linearGradient></mask>
+</defs>
+
+<rect x="8" y="8" width="1164" height="594" rx="34" fill="#FFFFFF"/>
+<g clip-path="url(#round)">
+  <circle cx="130" cy="90" r="260" fill="url(#glow1)"><animateTransform attributeName="transform" type="translate" values="0 0;28 16;0 0" dur="11s" repeatCount="indefinite"/></circle>
+  <circle cx="1070" cy="520" r="310" fill="url(#glow2)"><animateTransform attributeName="transform" type="translate" values="0 0;-26 -18;0 0" dur="13s" repeatCount="indefinite"/></circle>
+  <rect x="8" y="8" width="1164" height="594" rx="34" fill="none" stroke="url(#accent)" stroke-opacity=".5" stroke-width="2" filter="url(#softGlow)">
+    <animate attributeName="stroke-opacity" values=".25;.65;.25" dur="4s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="8" y="8" width="1164" height="594" fill="transparent" filter="url(#noise)"/>
+
+  <!-- divider -->
+  <path d="M455 70 V540" stroke="rgba(15,23,42,.08)" stroke-width="1"/>
+
+  <!-- animated particles -->
+  <g fill="url(#accent)">
+    <circle cx="75" cy="530" r="2"><animate attributeName="cy" values="530;500;530" dur="5s" repeatCount="indefinite"/></circle>
+    <circle cx="410" cy="120" r="2"><animate attributeName="cy" values="120;90;120" dur="6s" repeatCount="indefinite"/></circle>
+    <circle cx="1095" cy="95" r="2"><animate attributeName="cy" values="95;60;95" dur="7s" repeatCount="indefinite"/></circle>
+    <circle cx="1010" cy="560" r="1.5"><animate attributeName="cy" values="560;525;560" dur="4.5s" repeatCount="indefinite"/></circle>
+  </g>
+
+  <!-- left: ASCII portrait -->
+  <g transform="translate(56,112)" font-family="monospace" font-size="18" font-weight="700" fill="url(#asciiGrad)" filter="url(#softGlow)">
+    <g opacity="0"><animate attributeName="opacity" values="0;1" begin=".2s" dur=".35s" fill="freeze"/>
+      <text x="0" y="0">              .-''''-.</text>
+      <text x="0" y="24">           .-'  _    _ '-.</text>
+      <text x="0" y="48">         .'    (_)  (_)   '.</text>
+      <text x="0" y="72">        /                 \</text>
+    </g>
+    <g opacity="0"><animate attributeName="opacity" values="0;1" begin=".7s" dur=".35s" fill="freeze"/>
+      <text x="0" y="96">       ;      .------.      ;</text>
+      <text x="0" y="120">       |     /  .--.  \     |</text>
+      <text x="0" y="144">       ;     |  '--'  |     ;</text>
+      <text x="0" y="168">        \     \______/     /</text>
+    </g>
+    <g opacity="0"><animate attributeName="opacity" values="0;1" begin="1.2s" dur=".35s" fill="freeze"/>
+      <text x="0" y="192">         '.     /\     .'</text>
+      <text x="0" y="216">           '-. /  \ .-'</text>
+      <text x="0" y="240">             /____\</text>
+      <text x="0" y="264">            /|    |\</text>
+      <text x="0" y="288">           /_|____|_\</text>
+    </g>
+    <animateTransform attributeName="transform" type="translate" values="56 112;56 106;56 112" dur="6s" repeatCount="indefinite"/>
+  </g>
+  <g font-family="monospace" fill="#475569" font-size="13">
+    <text x="62" y="452">$ whoami</text>
+    <text x="62" y="474" fill="#0F172A">pradeep-kumar</text>
+    <text x="62" y="506">$ status --current</text>
+    <text x="62" y="528" fill="url(#accent)">learning • building • shipping</text>
+  </g>
+
+  <!-- right terminal -->
+  <g filter="url(#shadow)">
+    <rect x="486" y="54" width="638" height="500" rx="24" fill="#F8FAFC" stroke="rgba(15,23,42,.08)" stroke-width="1.5"/>
+    <rect x="486" y="54" width="638" height="52" rx="24" fill="#FFFFFF" opacity=".7"/>
+    <circle cx="515" cy="80" r="6" fill="#64748B" opacity=".75"/>
+    <circle cx="535" cy="80" r="6" fill="#64748B" opacity=".55"/>
+    <circle cx="555" cy="80" r="6" fill="#64748B" opacity=".35"/>
+    <text x="585" y="85" fill="#475569" font-size="13" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">~/profile/README.md</text>
+
+    <g font-family="Inter, ui-sans-serif, system-ui, sans-serif">
+      <text x="520" y="142" font-size="22" fill="#0F172A" font-weight="700">Hi <tspan>👋</tspan></text>
+      <text x="520" y="176" font-size="28" fill="#0F172A" font-weight="800">I'm Mukkannappagari Pradeep Kumar</text>
+      <text x="520" y="207" font-size="14" fill="#475569">Fresher • B.Tech Graduate • JNTU Kakinada</text>
+
+      <rect x="520" y="229" width="570" height="64" rx="14" fill="#FFFFFF" stroke="rgba(15,23,42,.08)"/>
+      <text x="540" y="256" font-size="13" fill="#475569" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">$ role</text>
+      <g font-size="21" font-weight="700" fill="url(#accent)">
+        <text x="620" y="257">Java Full Stack Developer<tspan fill="#0F172A">▌</tspan><animate attributeName="opacity" values="1;.3;1" dur="1s" repeatCount="indefinite"/></text>
+        <text x="620" y="257" opacity="0">Spring Boot Developer<animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;.25;.5;.8;1" dur="10s" repeatCount="indefinite"/></text>
+        <text x="620" y="257" opacity="0">React Developer<animate attributeName="opacity" values="0;0;0;1;0" keyTimes="0;.45;.55;.75;1" dur="10s" repeatCount="indefinite"/></text>
+        <text x="620" y="257" opacity="0">AI Enthusiast<animate attributeName="opacity" values="0;0;0;0;1;0" keyTimes="0;.6;.7;.8;.9;1" dur="10s" repeatCount="indefinite"/></text>
+      </g>
+
+      <g font-size="13" fill="#475569">
+        <text x="520" y="330">LOCATION</text><text x="680" y="330" fill="#0F172A">Gulyam (V), Kurnool (Dist)</text>
+        <text x="520" y="356">EDUCATION</text><text x="680" y="356" fill="#0F172A">B.Tech • Newton's Institute of Engineering College</text>
+        <text x="520" y="382">CURRENT FOCUS</text><text x="680" y="382" fill="#0F172A">Java Full Stack + AI • learning new technologies</text>
+        <text x="520" y="408">GITHUB</text><text x="680" y="408" fill="url(#accent)">github.com/Pradeep-Goud2004</text>
+        <text x="520" y="434">EMAIL</text><text x="680" y="434" fill="#0F172A">pk9621535@gmail.com</text>
+      </g>
+
+      <text x="520" y="469" font-size="13" fill="#475569">SKILLS</text>
+      <g font-size="12" font-weight="700" fill="#0F172A">
+        <g><rect x="520" y="481" width="72" height="30" rx="15" fill="#FFFFFF" stroke="rgba(15,23,42,.08)"/><text x="538" y="500">Java</text></g>
+        <g><rect x="600" y="481" width="103" height="30" rx="15" fill="#FFFFFF" stroke="rgba(15,23,42,.08)"/><text x="617" y="500">Spring Boot</text></g>
+        <g><rect x="711" y="481" width="72" height="30" rx="15" fill="#FFFFFF" stroke="rgba(15,23,42,.08)"/><text x="730" y="500">React</text></g>
+        <g><rect x="791" y="481" width="94" height="30" rx="15" fill="#FFFFFF" stroke="rgba(15,23,42,.08)"/><text x="810" y="500">JavaScript</text></g>
+        <g><rect x="893" y="481" width="72" height="30" rx="15" fill="#FFFFFF" stroke="rgba(15,23,42,.08)"/><text x="910" y="500">MySQL</text></g>
+        <g><rect x="973" y="481" width="93" height="30" rx="15" fill="#FFFFFF" stroke="rgba(15,23,42,.08)"/><text x="989" y="500">Git/GitHub</text></g>
+      </g>
+    </g>
+
+    <g transform="translate(520,528)" fill="none" stroke="url(#accent)" stroke-width="1.5" opacity=".9">
+      <circle cx="8" cy="0" r="7"/><circle cx="48" cy="0" r="7"/><circle cx="88" cy="0" r="7"/>
+    </g>
+    <g font-family="ui-sans-serif, system-ui" font-size="11" fill="#475569">
+      <text x="534" y="532">GitHub</text><text x="574" y="532">LinkedIn</text><text x="614" y="532">Portfolio: coming later</text>
+    </g>
+  </g>
+
+  <!-- scanline sweep -->
+  <rect x="18" y="20" width="1144" height="3" fill="url(#accent)" opacity=".16">
+    <animate attributeName="y" values="20;587;20" dur="8s" repeatCount="indefinite"/>
+  </rect>
+  <path d="M40 590 H1140" stroke="url(#accent)" stroke-width="1" opacity=".25"/>
+</g>
+</svg>
