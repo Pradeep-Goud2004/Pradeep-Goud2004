@@ -1,6 +1,6 @@
 <p align="center">
   <img
-    src="https://raw.githubusercontent.com/Pradeep-Goud2004/Pradeep-Goud2004/main/pradeep-github-dark-header.png"
+    src="https://raw.githubusercontent.com/Pradeep-Goud2004/Pradeep-Goud2004/main/dark.gif"
     alt="Mukkannappagari Pradeep Kumar — Java Full Stack Developer"
     width="100%"
   />
